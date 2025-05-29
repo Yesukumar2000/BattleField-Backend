@@ -48,14 +48,14 @@ const serverInfo = {
 
 // Mock data for map rotation
 const mapRotation = [
-  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076de23d2b9d4e1fbf67_browser__SI-next-image%20-%2006.png","name":"SIEGE OF SHANGHAI" },
-  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076c1ab31e3d009e691e_browser__SI-next-image%20-%2002.png","name":"OPERATION LOCKER" },
-  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076d9b48792dbe261e07_browser__SI-next-image%20-%2004.png","name":"DAWNBREAKER"},
-  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076d8123214d0747f2a1_browser__SI-next-image%20-%2005.png","name": "ROGUE TRANSMISSION" },
-  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076cab09f17a68176928_browser__SI-next-image%20-%2001.png","name": "ZAVOD 311"},
-  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076d00244d9e5298944f_browser__SI-next-image%20-%2003.png","name":"FLOOD ZONE"},
-  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076c1ab31e3d009e691e_browser__SI-next-image%20-%2002.png","name":"HAINAN RESORT"},
-  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076cab09f17a68176928_browser__SI-next-image%20-%2001.png","name":"GOLMUD RAILWAY"}
+  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076de23d2b9d4e1fbf67_browser__SI-next-image%20-%2006.png","name":"Dawnbreaker" },
+  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076c1ab31e3d009e691e_browser__SI-next-image%20-%2002.png","name":"propaganda" },
+  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076d9b48792dbe261e07_browser__SI-next-image%20-%2004.png","name":"OPERATION LOCKER"},
+  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076d8123214d0747f2a1_browser__SI-next-image%20-%2005.png","name": "lancang dam" },
+  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076cab09f17a68176928_browser__SI-next-image%20-%2001.png","name": "siege of shanghai"},
+  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076d00244d9e5298944f_browser__SI-next-image%20-%2003.png","name":"golmud railway"},
+  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076c1ab31e3d009e691e_browser__SI-next-image%20-%2002.png","name":"propaganda"},
+  {"image":"https://cdn.prod.website-files.com/6013fff62154adaa4600f932/6039076cab09f17a68176928_browser__SI-next-image%20-%2001.png","name":"siege of shanghai"}
 ];
 
 // Define your routes
