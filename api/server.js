@@ -6,15 +6,15 @@ app.use(cors());
 
 const serverInfo = {
   serverName: "! RC3-BASEMAPS",
-  mapName: "CONQUEST LARGE LANCANG DAM",
-  gameMode: "CUSTOM GO HZ",
+  mapName: "CONQUEST LARGE - LANCANG DAM",
+  gameMode: "CUSTOM - 6O HZ",
   antiCheatInfo: "Server protected by The K-50 AntiCheat. Vi les, Questions, Request, Appeal, Visit us: www.eps.gg",
   discordLink: "https://discord.gg/",
   players: "60/64",
   ping: "104ms",
   tickrate: "60 Hz",
   settings: [
-    { "label": "REGION", "value": "EUROPE DE" },
+    { "label": "REGION", "value": "EUROPE - DE" },
     { "label": "PUNKBUSTER", "value": "ON" },
     { "label": "FAIRFIGHT", "value": "ON" },
     { "label": "PASSWORD", "value": "OFF" },
