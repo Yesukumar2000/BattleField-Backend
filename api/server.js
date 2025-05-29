@@ -1,13 +1,10 @@
 const express = require('express');
-const cors = require('cors'); 
+const cors = require('cors');
+const { createServer } = require('@vercel/node'); // Vercel specific
 
 const app = express();
-const port = 3001; 
-
-// Enable CORS for all origins, allowing the React app to fetch data
 app.use(cors());
 
-// Mock data for server information
 const serverInfo = {
   serverName: "! RC3-BASEMAPS",
   mapName: "CONQUEST LARGE LANCANG DAM",
@@ -61,24 +58,17 @@ const mapRotation = [
   "HAINAN RESORT",
   "GOLMUD RAILWAY"
 ];
-app.get("/", (req, res) => {
-  console.log('Serving root endpoint');
+
+app.get('/', (req, res) => {
   res.send('Battlefield Backend Server is running');
 });
 
-// API endpoint for server information
 app.get('/api/server-info', (req, res) => {
-  console.log('Serving /api/server-info');
   res.json(serverInfo);
 });
 
-// API endpoint for map rotation
 app.get('/api/map-rotation', (req, res) => {
-  console.log('Serving /api/map-rotation');
   res.json(mapRotation);
 });
 
-// Start the server
-app.listen(port, () => {
-  console.log(`Battlefield 4 Backend Server listening at http://localhost:${port}`);
-});
+module.exports = app;
